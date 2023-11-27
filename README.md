@@ -5,11 +5,11 @@
 ---
 
 该代码库将提供腹部CT胰腺分割的网络，分割网络的权重并非通过随机初始化，而是通过利用自监督学习从未标签的腹部CT图像学习权重，并最终计算了胰腺脂肪的浸润比。
-<p align="center"><img width="100%" src="nnTransfer/Unitiled.png" /></p>
+<p align="center"><img width="100%" src="nnTransfer/Untitled.png" /></p>
 
 The segmentation and infiltration of fat in one of our cases. In this case, the fat volume was 89.99ml and the fat infiltration percentage was 9.1%
 
-<p align="center"><img width="100%" src="nnTransfer/Unitiled 1.png" /></p>
+<p align="center"><img width="100%" src="nnTransfer/Untitled 1.png" /></p>
 
 # Paper
 
