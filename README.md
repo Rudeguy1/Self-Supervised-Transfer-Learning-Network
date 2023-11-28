@@ -4,13 +4,18 @@
 
 ---
 
+<<<<<<< HEAD
 This code repository provides a network for pancreatic segmentation in abdominal CT scans. The weights of the segmentation network are not randomly initialized but learned from unlabeled abdominal CT images using self-supervised learning. Furthermore, it calculates the infiltration ratio of pancreatic fat.
 
 ![Untitled](nnTransfer%20Readme%2074e3153cae1f42f89f297d602ff20717/Untitled.png)
+=======
+该代码库将提供腹部CT胰腺分割的网络，分割网络的权重并非通过随机初始化，而是通过利用自监督学习从未标签的腹部CT图像学习权重，并最终计算了胰腺脂肪的浸润比。
+<p align="center"><img width="100%" src="nnTransfer/Untitled.png" /></p>
+>>>>>>> 5f50fff070c2e7c25a54881d550f90eac62e7af6
 
 The segmentation and infiltration of fat in one of our cases. In this case, the fat volume was 89.99ml and the fat infiltration percentage was 9.1%
 
-![Untitled](nnTransfer%20Readme%2074e3153cae1f42f89f297d602ff20717/Untitled%201.png)
+<p align="center"><img width="100%" src="nnTransfer/Untitled 1.png" /></p>
 
 # Paper
 
@@ -50,6 +55,7 @@ done
 
 "If you are interested in this self-supervised network and want to apply it to your own dataset, you can refer to“[ModelsGenesis/pytorch at master · MrGiovanni/ModelsGenesis (github.com)](https://github.com/MrGiovanni/ModelsGenesis/tree/master/pytorch)”
 
+<<<<<<< HEAD
 Download the initial weights for self-supervised training: ……
 
 ### Segmentation network：
@@ -63,3 +69,6 @@ Download the initial weights for self-supervised training: ……
 `Volume_pancreas.py` : It is used to calculate the volume of the pancreas as well as the fat infiltration ratio, and ultimately generate a pancreatic fat map. 
 
 **Note**: The calculation of fat infiltration here must be based on CT scan images. If only labels from the portal venous phase are available, registration must be performed before the calculation.
+=======
+### 评价指标和脂肪浸润比计算：
+>>>>>>> 5f50fff070c2e7c25a54881d550f90eac62e7af6
