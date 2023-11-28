@@ -4,11 +4,9 @@
 
 ---
 This code repository provides a network for pancreatic segmentation in abdominal CT scans. The weights of the segmentation network are not randomly initialized but learned from unlabeled abdominal CT images using self-supervised learning. Furthermore, it calculates the infiltration ratio of pancreatic fat.
-
 <p align="center"><img width="100%" src="jpg/Untitled.png" /></p>
 
 The segmentation and infiltration of fat in one of our cases. In this case, the fat volume was 89.99ml and the fat infiltration percentage was 9.1%
-
 <p align="center"><img width="100%" src="jpg/Untitled 1.png" /></p>
 
 # Paper
