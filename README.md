@@ -51,7 +51,6 @@ done
 
 "If you are interested in this self-supervised network and want to apply it to your own dataset, you can refer to“[ModelsGenesis/pytorch at master · MrGiovanni/ModelsGenesis (github.com)](https://github.com/MrGiovanni/ModelsGenesis/tree/master/pytorch)”
 
-<<<<<<< HEAD
 Download the initial weights for self-supervised training: ……
 
 ### Segmentation network：
