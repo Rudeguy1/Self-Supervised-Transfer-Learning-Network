@@ -7,7 +7,7 @@ This code repository provides a network for pancreatic segmentation in abdominal
 
 ![Untitled](nnTransfer%20Readme%2074e3153cae1f42f89f297d602ff20717/Untitled.png)
 
-<p align="center"><img width="100%" src="jpgr/Untitled.png" /></p>
+<p align="center"><img width="100%" src="jpg/Untitled.png" /></p>
 
 The segmentation and infiltration of fat in one of our cases. In this case, the fat volume was 89.99ml and the fat infiltration percentage was 9.1%
 
