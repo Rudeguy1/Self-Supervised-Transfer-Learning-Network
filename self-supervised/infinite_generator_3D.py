@@ -25,7 +25,7 @@ sys.setrecursionlimit(40000)
 
 parser = OptionParser()
 parser.add_option("--fold", dest="fold", help="fold of subset", default=5, type="int")
-parser.add_option("--data", dest="data", help="the directory of LUNA16 dataset", type="string")
+parser.add_option("--data", dest="data", help="the directory of Self_supervised_pancreas_dataset", type="string")
 parser.add_option("--save", dest="save", help="the directory of processed 3D cubes", type="string")
 parser.add_option("--input_rows", dest="input_rows", help="input rows", default=64, type="int")
 parser.add_option("--input_cols", dest="input_cols", help="input cols", default=64, type="int")
@@ -114,7 +114,6 @@ config = setup_config(input_rows=options.input_rows,
                       len_borderysend = 206,
                       len_depth=3,
                       lung_min=0.7,
-                      # lung_max=0.15,
                       lung_max = 0.25,
                       DATA_DIR=options.data,
                      )
